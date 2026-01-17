@@ -4,3 +4,4 @@
 # Dependencies for x86_64 CPUs
 torch == 2.3.0+cpu
 triton >= 2.2.0  # FIXME(woosuk): This is a hack to avoid import error.
+filelock>=3.20.3 # not directly required, pinned by Snyk to avoid a vulnerability
